@@ -16,16 +16,16 @@ jobs:
         env:
             API_TOKEN_GITHUB: ${{ secrets.API_INTEGRATED_REPO }}
 
-            DEST_GITHUB_USERNAME: 'sepulsa'
-            DEST_REPO_NAME: 'Ibis-Tummy'
+            DEST_GITHUB_USERNAME: 'hohoabhi'
+            DEST_REPO_NAME: 'knowledge-base'
             USER_EMAIL: ''
-            PUSH_TO_BRANCH: 'docs-new-imperium'
+            PUSH_TO_BRANCH: 'docs-system-doc'
             PR_TO_BRANCH: 'master'
             # You can add multiple source file or folder separate by space
             SRC_DIR: 'docs/*' 
             # You can create nested folder
-            DEST_DIR: 'System-Documents/New-Imperium'
+            DEST_DIR: 'System-Documents/system-doc'
             # You can rename with format source(comma)target
             # Multiple line if you want to move multiple file / folder
             # Add your custom Pull Request message
-            PR_MESSAGE: 'New release from New-Imperium'
+            PR_MESSAGE: 'New release from system_doc'
